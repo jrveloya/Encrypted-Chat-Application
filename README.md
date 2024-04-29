@@ -14,7 +14,7 @@ The server handles all encryption and decryption of messages, ensuring secure co
 The application consists of a server and up to four clients. Clients connect to the server, which manages communication between them.
 2. **Encryption and Decryption**
 The server encrypts messages before relaying them to the recipient client, ensuring secure communication. Messages are decrypted upon receipt before being displayed.
-3. Symmetric Encryption
+3. **Symmetric Encryption**
 The application uses AES (Advanced Encryption Standard) in CBC mode for encryption and decryption.
 
 4. **HMAC for Message Integrity**
